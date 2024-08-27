@@ -1,0 +1,48 @@
+D:\STM32Cube IDE\CubeIDE_1.13.1\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\arm-none-eabi\include\c++\11.3.1\bits\std_abs.h:75:3:constexpr float std::abs(float)	1
+D:\STM32Cube IDE\CubeIDE_1.13.1\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\arm-none-eabi\include\c++\11.3.1\cmath:184:3:constexpr float std::cos(float)	1
+D:\STM32Cube IDE\CubeIDE_1.13.1\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\arm-none-eabi\include\c++\11.3.1\cmath:338:3:constexpr float std::log(float)	1
+D:\STM32Cube IDE\CubeIDE_1.13.1\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\arm-none-eabi\include\c++\11.3.1\cmath:425:3:constexpr float std::sin(float)	1
+D:\STM32Cube IDE\CubeIDE_1.13.1\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\arm-none-eabi\include\c++\11.3.1\cmath:463:3:constexpr float std::sqrt(float)	1
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(const TfLiteContext*, const TfLiteNode*, int)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:51:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:76:12:int tflite::NumInputs(const TfLiteNode*)	1
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:77:12:int tflite::NumOutputs(const TfLiteNode*)	1
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:82:16:int64_t tflite::NumElements(const TfLiteIntArray*)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:90:16:int64_t tflite::NumElements(const TfLiteTensor*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:28:6:bool tflite::ops::micro::elementwise::{anonymous}::IsNumericSupportedType(TfLiteType)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:32:6:bool tflite::ops::micro::elementwise::{anonymous}::IsLogicalSupportedType(TfLiteType)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:67:21:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::EvalNumeric(TfLiteContext*, TfLiteNode*, float (*)(float))	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:72:21:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::EvalLogical(TfLiteContext*, TfLiteNode*, bool (*)(bool))	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:77:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::AbsEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:81:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::SinEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:85:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::CosEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:89:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::LogEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:93:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::SqrtEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:98:37:tflite::ops::micro::elementwise::{anonymous}::RsqrtEval(TfLiteContext*, TfLiteNode*)::<lambda(float)>	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:98:37:static float tflite::ops::micro::elementwise::{anonymous}::RsqrtEval(TfLiteContext*, TfLiteNode*)::<lambda(float)>::_FUN(float)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:98:37:tflite::ops::micro::elementwise::{anonymous}::RsqrtEval(TfLiteContext*, TfLiteNode*)::<lambda(float)>::operator float (*)(float)() const	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:97:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::RsqrtEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:102:37:tflite::ops::micro::elementwise::{anonymous}::SquareEval(TfLiteContext*, TfLiteNode*)::<lambda(float)>	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:102:37:static float tflite::ops::micro::elementwise::{anonymous}::SquareEval(TfLiteContext*, TfLiteNode*)::<lambda(float)>::_FUN(float)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:102:37:tflite::ops::micro::elementwise::{anonymous}::SquareEval(TfLiteContext*, TfLiteNode*)::<lambda(float)>::operator float (*)(float)() const	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:101:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::SquareEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:106:37:tflite::ops::micro::elementwise::{anonymous}::LogicalNotEval(TfLiteContext*, TfLiteNode*)::<lambda(bool)>	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:106:37:static bool tflite::ops::micro::elementwise::{anonymous}::LogicalNotEval(TfLiteContext*, TfLiteNode*)::<lambda(bool)>::_FUN(bool)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:106:37:tflite::ops::micro::elementwise::{anonymous}::LogicalNotEval(TfLiteContext*, TfLiteNode*)::<lambda(bool)>::operator bool (*)(bool)() const	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:105:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::LogicalNotEval(TfLiteContext*, TfLiteNode*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:113:21:TfLiteRegistration* tflite::ops::micro::Register_ABS()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:127:21:TfLiteRegistration* tflite::ops::micro::Register_SIN()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:141:21:TfLiteRegistration* tflite::ops::micro::Register_COS()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:155:21:TfLiteRegistration* tflite::ops::micro::Register_LOG()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:169:21:TfLiteRegistration* tflite::ops::micro::Register_SQRT()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:183:21:TfLiteRegistration* tflite::ops::micro::Register_RSQRT()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:197:21:TfLiteRegistration* tflite::ops::micro::Register_SQUARE()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:211:21:TfLiteRegistration* tflite::ops::micro::Register_LOGICAL_NOT()	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:53:21:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::EvalImpl(TfLiteContext*, TfLiteNode*, T (*)(T), TfLiteType) [with T = float]	3
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:53:21:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::EvalImpl(TfLiteContext*, TfLiteNode*, T (*)(T), TfLiteType) [with T = bool]	3
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:38:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::GenericPrepare(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::ops::micro::elementwise::{anonymous}::IsNumericSupportedType]	5
+../tensorflow_lite/tensorflow/lite/micro/kernels/elementwise.cc:38:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::GenericPrepare(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::ops::micro::elementwise::{anonymous}::IsLogicalSupportedType]	5
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = float]	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = float]	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = bool]	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = bool]	2

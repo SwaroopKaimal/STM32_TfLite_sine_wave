@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.cc 
+
+CC_DEPS += \
+./tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.d 
+
+OBJS += \
+./tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+tensorflow_lite/tensorflow/lite/micro/riscv32_generic/%.o tensorflow_lite/tensorflow/lite/micro/riscv32_generic/%.su tensorflow_lite/tensorflow/lite/micro/riscv32_generic/%.cyclo: ../tensorflow_lite/tensorflow/lite/micro/riscv32_generic/%.cc tensorflow_lite/tensorflow/lite/micro/riscv32_generic/subdir.mk
+	arm-none-eabi-g++ "$<" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite" -I"D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/third_party/flatbuffers/include" -I"D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/third_party/ruy" -I"D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/third_party/gemmlowp" -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-tensorflow_lite-2f-tensorflow-2f-lite-2f-micro-2f-riscv32_generic
+
+clean-tensorflow_lite-2f-tensorflow-2f-lite-2f-micro-2f-riscv32_generic:
+	-$(RM) ./tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.cyclo ./tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.d ./tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.o ./tensorflow_lite/tensorflow/lite/micro/riscv32_generic/debug_log.su
+
+.PHONY: clean-tensorflow_lite-2f-tensorflow-2f-lite-2f-micro-2f-riscv32_generic
+

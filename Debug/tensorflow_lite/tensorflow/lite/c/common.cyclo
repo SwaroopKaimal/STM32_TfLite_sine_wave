@@ -1,0 +1,17 @@
+../tensorflow_lite/tensorflow/lite/c/common.c:22:5:TfLiteIntArrayGetSizeInBytes	1
+../tensorflow_lite/tensorflow/lite/c/common.c:27:5:TfLiteIntArrayEqual	4
+../tensorflow_lite/tensorflow/lite/c/common.c:33:5:TfLiteIntArrayEqualsArray	5
+../tensorflow_lite/tensorflow/lite/c/common.c:45:17:TfLiteIntArrayCreate	3
+../tensorflow_lite/tensorflow/lite/c/common.c:54:17:TfLiteIntArrayCopy	3
+../tensorflow_lite/tensorflow/lite/c/common.c:63:6:TfLiteIntArrayFree	1
+../tensorflow_lite/tensorflow/lite/c/common.c:67:5:TfLiteFloatArrayGetSizeInBytes	1
+../tensorflow_lite/tensorflow/lite/c/common.c:74:19:TfLiteFloatArrayCreate	1
+../tensorflow_lite/tensorflow/lite/c/common.c:81:6:TfLiteFloatArrayFree	1
+../tensorflow_lite/tensorflow/lite/c/common.c:83:6:TfLiteTensorDataFree	3
+../tensorflow_lite/tensorflow/lite/c/common.c:91:6:TfLiteQuantizationFree	4
+../tensorflow_lite/tensorflow/lite/c/common.c:109:6:TfLiteSparsityFree	7
+../tensorflow_lite/tensorflow/lite/c/common.c:142:6:TfLiteTensorFree	3
+../tensorflow_lite/tensorflow/lite/c/common.c:157:6:TfLiteTensorReset	1
+../tensorflow_lite/tensorflow/lite/c/common.c:177:6:TfLiteTensorRealloc	5
+../tensorflow_lite/tensorflow/lite/c/common.c:192:13:TfLiteTypeGetName	13
+../tensorflow_lite/tensorflow/lite/c/common.c:222:16:TfLiteDelegateCreate	1

@@ -1,0 +1,10 @@
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(const TfLiteContext*, const TfLiteNode*, int)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:51:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:76:12:int tflite::NumInputs(const TfLiteNode*)	1
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:77:12:int tflite::NumOutputs(const TfLiteNode*)	1
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:82:16:int64_t tflite::NumElements(const TfLiteIntArray*)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:90:16:int64_t tflite::NumElements(const TfLiteTensor*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/reshape.cc:30:14:TfLiteStatus tflite::ops::micro::reshape::ReshapeOutput(TfLiteContext*, TfLiteNode*)	11
+../tensorflow_lite/tensorflow/lite/micro/kernels/reshape.cc:69:14:TfLiteStatus tflite::ops::micro::reshape::Prepare(TfLiteContext*, TfLiteNode*)	6
+../tensorflow_lite/tensorflow/lite/micro/kernels/reshape.cc:76:14:TfLiteStatus tflite::ops::micro::reshape::Eval(TfLiteContext*, TfLiteNode*)	3
+../tensorflow_lite/tensorflow/lite/micro/kernels/reshape.cc:92:21:TfLiteRegistration* tflite::ops::micro::Register_RESHAPE()	1

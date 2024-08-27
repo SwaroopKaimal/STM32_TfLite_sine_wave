@@ -1,0 +1,9 @@
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(const TfLiteContext*, const TfLiteNode*, int)	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:51:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	2
+../tensorflow_lite/tensorflow/lite/micro/kernels/circular_buffer.cc:77:6:void tflite::ops::micro::circular_buffer::Free(TfLiteContext*, void*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/circular_buffer.cc:79:14:TfLiteStatus tflite::ops::micro::circular_buffer::Prepare(TfLiteContext*, TfLiteNode*)	12
+../tensorflow_lite/tensorflow/lite/micro/kernels/circular_buffer.cc:118:6:void tflite::ops::micro::circular_buffer::EvalInt8(const int8_t*, int, int, int8_t*)	1
+../tensorflow_lite/tensorflow/lite/micro/kernels/circular_buffer.cc:123:14:TfLiteStatus tflite::ops::micro::circular_buffer::Eval(TfLiteContext*, TfLiteNode*)	3
+../tensorflow_lite/tensorflow/lite/micro/kernels/circular_buffer.cc:161:21:TfLiteRegistration* tflite::ops::micro::Register_CIRCULAR_BUFFER()	1
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = signed char]	2
+D:/EmbeddedSystems/Workspace_AI/nucleo-l496zg-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = signed char]	2
